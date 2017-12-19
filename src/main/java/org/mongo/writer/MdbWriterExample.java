@@ -3,18 +3,13 @@ package org.mongo.writer;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.mongodb.MongoBulkWriteException;
 import org.slf4j.LoggerFactory;
 import org.slf4j.Logger;
 
 import org.bson.Document;
 import org.bson.types.ObjectId;
-import com.mongodb.bulk.BulkWriteError;
-import com.mongodb.bulk.BulkWriteResult;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.MongoException;
-import com.mongodb.MongoWriteConcernException;
-import com.mongodb.MongoWriteException;
 
 /**
  *

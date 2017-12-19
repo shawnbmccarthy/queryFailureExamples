@@ -41,10 +41,10 @@ public class Main {
         MdbReaderExample reader = new MdbReaderExample(mCollection);
         MdbWriterExample writer = new MdbWriterExample(mCollection);
 
-        //logger.debug("first starting the writer");
-        //writer.runDemo();
+        logger.debug("first starting the writer demo");
+        writer.runDemo();
 
-        logger.debug("lets go to the reader");
+        logger.debug("lets go to the reader demo");
         reader.runDemo();
 
         logger.info("all done");
